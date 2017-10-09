@@ -1,13 +1,47 @@
-/*
-    Theme Name: Lonely
-    Theme URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
 /* ==== Google font ==== */
 @import url(https://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);
 
+/* ==== Colors ==== */
+a,a:hover {
+	color: #d43076;
+}
 
+.intro .page-scroll a:hover {
+	color: #d43076;
+}
+
+.icon:hover .fa{
+	color: #d43076;
+}
+
+ul.nav li a:hover {
+	color: #d43076;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #d43076;
+}
+
+.bg-skin {
+	background: #d43076;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #d43076;
+}
+
+footer {
+    background-color: #d43076;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #d43076;
+  border-color: #d43076;
+}
+
+/* ==== Page Style ==== */
 body {
     width: 100%;
     height: 100%;
@@ -158,7 +192,7 @@ img.img-responsive {
 }
 
 
-/* loader */
+/* ----- Pre Loader ----- */
 #preloader {
     background: #ffffff;
     bottom: 0;
@@ -236,7 +270,7 @@ img.img-responsive {
   animation: shadowSpin 1s ease-in-out infinite;
 }
 
-/* misc */
+/* ------- misc ------- */
 hr {
   margin-top: 10px;
 }
@@ -250,7 +284,7 @@ hr {
 .marginbot-50{margin-bottom:50px !important;}
 
 /* ===========================
---- General sections
+--- General sections --------
 ============================ */
 
 .home-section {
@@ -299,7 +333,7 @@ hr {
 
 
 /* ===========================
---- Intro
+-------- Intro ---------
 ============================ */
 
 .intro {
@@ -359,7 +393,7 @@ hr {
 
 
 /* ===========================
---- About
+--------- About ----------
 ============================ */
 
 .icon .fa {
@@ -367,7 +401,7 @@ hr {
 }
 
 /* ==========================
---- Gallery
+--------- Merch ---------
 ============================= */
 
 
@@ -383,7 +417,7 @@ hr {
 
 
 /* ===========================
---- Contact
+---------- Contact ----------
 ============================ */
 
 .form-wrapper {
@@ -461,7 +495,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 /* ===========================
---- Footer
+--------- Footer ---------
 ============================ */
 
 footer {
@@ -486,7 +520,7 @@ footer a:hover {
 }
 
 /* ==========================
-Parallax
+---------- Parallax -----------
 ============================= */
 
 #separator {
@@ -514,7 +548,7 @@ Parallax
 }
 
 /* ===========================
---- Elements
+--------- Elements ---------
 ============================ */
 
 .btn {
@@ -650,7 +684,7 @@ a.btn:hover {
 }
 
 
-/* Media queries */
+/* ----- Media queries ------- */
 
 @media (max-width:768px) {
 	.navbar-header .fa {

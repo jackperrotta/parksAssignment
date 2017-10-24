@@ -3,42 +3,42 @@
 
 /* ==== Colors ==== */
 a,a:hover {
-	color: #d43076;
+	color: #4C9900;
 }
 
 .intro .page-scroll a:hover {
-	color: #d43076;
+	color: #4C9900;
 }
 
 .icon:hover .fa{
-	color: #d43076;
+	color: #4C9900;
 }
 
 ul.nav li a:hover {
-	color: #d43076;
+	color: #4C9900;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #d43076;
+    background-color: #4C9900;
 }
 
 .bg-skin {
-	background: #d43076;
+	background: #4C9900;
 }
 
 form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
-	border-color: #d43076;
+	border-color: #4C9900;
 }
 
 footer {
-    background-color: #d43076;
+    background-color: #4C9900;
 }
 
 .btn-skin {
   color: #fff;
-  background-color: #d43076;
-  border-color: #d43076;
+  background-color: #4C9900;
+  border-color: #4C9900;
 }
 
 /* ==== Page Style ==== */
